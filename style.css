@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+header {
+  height: 169px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header-wrapper ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.header-wrapper ul li a {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.05px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.first-sct {
+  background-image: url("./img/bg-1.jpg");
+  height: 594px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 37px;
+}
+
+h1 {
+  margin: 0 auto;
+  background-color: white;
+  width: 602px;
+  height: 75px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77.45px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: black;
+  box-shadow: 16px 18px 28px rgba(255, 255, 255, 0.25);
+}
+
+.green-box {
+    background-color: rgba(50, 251, 0, 1);
+    width: 237px;
+    height: 209px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 6, 6, 1);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 34px;
+    text-shadow: 0px 4px 7.4px rgba(255, 255, 255, 1);
+    position: relative;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+}
+
+.boxes-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 183px;
+}
+
+.boxes-wrapper .first-box div {
+    background-color: rgba(247, 1, 1, 1);
+    width: 237px;
+    height: 209px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px rgba(255, 255, 255, 1);
+    position: absolute;
+    right: -50%;
+    top: -50%;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+}
+
+.boxes-wrapper .second-box div {
+    background-color: rgba(247, 1, 1, 1);
+    width: 411px;
+    height: 209px;
+    border-radius: 100px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px rgba(255, 255, 255, 1);
+    position: absolute;
+    top: -50%;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+}
+
+.boxes-wrapper .third-box div {
+    background-color: rgba(247, 1, 1, 1);
+    width: 237px;
+    height: 209px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 50%;
+    top: -50%;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+}
+
+.second-sct {
+  background-color: black;
+  padding-top: 79px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 127px;
+  padding-bottom: 100px;
+}
+
+.card {
+  width: 368px;
+  height: 332px;
+  background-color: #7B2525;
+  padding-top: 50px;
+  text-align: center;
+}
+
+h4 {
+  font-family: sans-serif;
+font-weight: 700;
+font-size: 32px;
+line-height: 38.73px;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+
+p {
+  font-family: sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 24.2px;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+margin-top: 68px;
+}
+
+.sec {
+  margin-top: 87px;
+}
+
+.th {
+  padding-top: 36px;
+}
